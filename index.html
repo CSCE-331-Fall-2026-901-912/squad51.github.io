@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Squad 51 | POS Documentation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #202938;
+      line-height: 1.6;
+    }
+    header {
+      background: #17263c;
+      color: white;
+      padding: 20px 8%;
+    }
+    nav {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    nav a { color: white; text-decoration: none; }
+    main { max-width: 1000px; margin: auto; padding: 32px; }
+    .hero {
+      background: #e4ecfa;
+      padding: 48px 32px;
+      border-radius: 12px;
+    }
+    .cards { display: grid; grid-template-columns:
+      repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 10px;
+      border: 1px solid #dce3ee;
+    }
+    section { margin-bottom: 48px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Squad 51</h2>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#features">Features</a>
+      <a href="#documentation">Documentation</a>
+      <a href="#team">Team</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="overview">
+      <h1>Point of Sale System</h1>
+      <p>CSCE 331 - Fall 2026</p>
+      <p>Project documentation for Squad 51's
+         restaurant point-of-sale application.</p>
+    </section>
+
+    <section id="features">
+      <h2>Features</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Cashier Interface</h3>
+          <p>Order creation and management.</p>
+        </div>
+        <div class="card">
+          <h3>Manager Dashboard</h3>
+          <p>Menu and employee management.</p>
+        </div>
+        <div class="card">
+          <h3>Analytics</h3>
+          <p>Sales reports and product usage.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="documentation">
+      <h2>Documentation</h2>
+      <p>Technical architecture, user guides,
+         and implementation details.</p>
+    </section>
+
+    <section id="team">
+      <h2>Our Team</h2>
+      <p>Texas A&M University - CSCE 331</p>
+    </section>
+  </main>
+</body>
+</html>
